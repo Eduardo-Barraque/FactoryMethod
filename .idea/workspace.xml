@@ -4,17 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1cb099b6-5145-4c39-b519-1928fd774f96" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jpa-buddy.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/factorymethod/CategoriaFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/factorymethod/ICategoria.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
+    <list default="true" id="1cb099b6-5145-4c39-b519-1928fd774f96" name="Changes" comment="First commit">
+      <change afterPath="$PROJECT_DIR$/src/main/java/factorymethod/CategoriaFilme.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/factorymethod/CategoriaJogo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/factorymethod/CategoriaFactoryTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/factorymethod/CategoriaJogoTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,6 +48,62 @@
     "node.js.selected.package.tslint": "(autodetect)"
   }
 }]]></component>
+  <component name="RunManager" selected="JUnit.CategoriaFactoryTest">
+    <configuration name="CategoriaFactoryTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="FactoryMethod" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="factorymethod.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="factorymethod" />
+      <option name="MAIN_CLASS_NAME" value="factorymethod.CategoriaFactoryTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ServicoFormaturaTest.deveCadastrarJogo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="FactoryMethod" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="factorymethod.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="factorymethod" />
+      <option name="MAIN_CLASS_NAME" value="factorymethod.ServicoFormaturaTest" />
+      <option name="METHOD_NAME" value="deveCadastrarJogo" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ServicoFormaturaTest.deveDescadastrarJogo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="FactoryMethod" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="factorymethod.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="factorymethod" />
+      <option name="MAIN_CLASS_NAME" value="factorymethod.ServicoFormaturaTest" />
+      <option name="METHOD_NAME" value="deveDescadastrarJogo" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.CategoriaFactoryTest" />
+        <item itemvalue="JUnit.ServicoFormaturaTest.deveDescadastrarJogo" />
+        <item itemvalue="JUnit.ServicoFormaturaTest.deveCadastrarJogo" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -61,8 +112,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1679671166689</updated>
-      <workItem from="1679671167961" duration="2732000" />
+      <workItem from="1679671167961" duration="5891000" />
     </task>
+    <task id="LOCAL-00001" summary="First commit">
+      <created>1679676817091</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1679676817091</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -78,5 +137,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="First commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="First commit" />
   </component>
 </project>
